@@ -127,7 +127,7 @@ modelscope download --dataset Harris/pretrainSpongeBob r1_1024.jsonl --local_dir
 
 ### 蒸馏代码：distill.py
 
-(和SFT唯一区别是修改了loss针对思维链token的损失惩罚)
+其和SFT唯一区别是修改了loss针对思维链token的损失惩罚
 
 执行训练过程
 
