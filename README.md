@@ -5,11 +5,11 @@
 
 ## 基础组件：
 
-1、模型配置代码：Config.py
+模型配置代码：Config.py
 
-2、模型架构代码（定义了模型的架构和训练推理全流程细节）：model.py
+模型架构代码（定义了模型的架构和训练推理全流程细节）：model.py
 
-3、数据集dataset类定义：dataset.py
+数据集dataset类定义：dataset.py
 
 定义了dataset类，方便之后进行数据加载，有Pretrain和SFT两个类
 
