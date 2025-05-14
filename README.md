@@ -148,7 +148,7 @@ distill_long.pth——使用SFT_1024.pth作为基座训练
 python eval_model.py --model_mode 2
 ```
 # 注：
-模型参数文件，链接
+训练后的模型权重文件：
 ```bash
 https://pan.baidu.com/s/1qCn3EohZEX9yy4zlsY-wiA?pwd=h1ue
 ```
