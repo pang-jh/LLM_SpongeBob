@@ -16,7 +16,7 @@
 ## 预训练：
 
 ### 预训练数据集:
-数据集已上传至modelscope、直接当前目录下在命令行运行
+数据集已上传至modelscope，直接当前目录下在命令行运行
 
 ```bash
 pip install modelscope
