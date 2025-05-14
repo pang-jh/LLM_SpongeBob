@@ -29,7 +29,7 @@ modelscope download --dataset Harris/pretrainSpongeBob pretrain.jsonl --local_di
 python train_tokenizer.py 
 ```
 
-开始运行分词器训练。最终训好的tokenizer，可自取使用(spongebob_tokenizer.zip)
+开始运行分词器训练。最终训好的tokenizer，可自取使用(spongebob_tokenizer)
 
 ### 预训练代码：pretrain.py
 
@@ -38,7 +38,7 @@ python train_tokenizer.py
 ```bash
 python pretrain.py 
 ```
-pretrain后到模型文件，可直接取用(pretrain.pth)
+pretrain后到模型文件，可直接取用(pretrain.pth)(见文末)
 
 ### 推理代码：eval_model.py
 
@@ -145,4 +145,9 @@ distill_long.pth——使用SFT_1024.pth作为基座训练
 ```bash
 python eval_model.py --model_mode 2
 ```
-
+# 注：
+模型参数文件，链接
+```bash
+https://pan.baidu.com/s/1qCn3EohZEX9yy4zlsY-wiA?pwd=h1ue
+```
+提取码: h1ue
