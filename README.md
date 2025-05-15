@@ -147,6 +147,7 @@ distill_long.pth——使用SFT_1024.pth作为基座训练
 ```bash
 python eval_model.py --model_mode 2
 ```
+
 ## 项目结果：
 <img src="result.jpg" alt="outline" width="800"/>
 
