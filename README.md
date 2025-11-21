@@ -24,7 +24,7 @@ modelscope download --dataset Harris/pretrainSpongeBob pretrain.jsonl --local_di
 ```bash
 python train_tokenizer.py 
 ```
-- 开始运行分词器训练。最终训好的tokenizer，可自取使用(spongebob_tokenizer)
+- 开始运行分词器训练。最终训好的tokenizer，可自取使用 (spongebob_tokenizer)
 
 ### 预训练代码：pretrain.py
 
@@ -33,7 +33,7 @@ python train_tokenizer.py
 ```bash
 python pretrain.py 
 ```
-- pretrain后到模型文件，可直接取用(pretrain.pth)(见文末)
+- pretrain后到模型文件，可直接取用 (pretrain.pth) (见文末链接)
 
 ### 推理代码：eval_model.py
 
@@ -60,7 +60,7 @@ modelscope download --dataset Harris/pretrainSpongeBob sft_512.jsonl --local_dir
 ```bash
 python SFT.py 
 ```
-- 训练后的模型权重，可直接取用(SFT.pth)
+- 训练后的模型权重，可直接取用 (SFT.pth)
 
 ### 推理代码：eval_model.py
 
